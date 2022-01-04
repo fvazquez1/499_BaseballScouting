@@ -12,11 +12,10 @@ It then takes all the players that data was gathered for and searches
 thebaseballcube.com for that player's career stats. This is done to check to see
 if that player had played for a Junior College before. 
 """
-from BaseballCube_WebScrape import scrapeYearlyStats, checkForJUCO
+from BaseballCube_WebScrape import scrapeYearlyStats
 
 start_Year = 2008
 end_Year = 2021
 
 scrapeYearlyStats(start_Year,end_Year)
     
-#checkForJUCO('C:/Users/Francisco Vazquez/Desktop/499_BaseballScouting/CapstoneBaseballData/Hitting')
